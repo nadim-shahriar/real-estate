@@ -1,0 +1,120 @@
+[
+    {
+      "id": 1,
+      "estate_title": "Modern Luxury Villa",
+      "segment_name": "Residential",
+      "description": "A stunning villa with high-end architectural design and luxurious interiors.",
+      "price": "$1,200,000",
+      "status": "sale",
+      "area": "3500 sqft",
+      "location": "Beverly Hills, California",
+      "facilities": ["living room", "swimming pool", "kitchen"],
+      "image_url": "https://img.freepik.com/free-photo/analog-landscape-city-with-buildings_23-2149661456.jpg?ga=GA1.1.2061230438.1732388446&semt=ais_hybrid"
+      
+    },
+    {
+      "id": 2,
+      "estate_title": "Beachfront Paradise Villa",
+      "segment_name": "Residential",
+      "description": "A tropical beachfront villa offering breathtaking ocean views.",
+      "price": "$2,800,000",
+      "status": "sale",
+      "area": "4200 sqft",
+      "location": "Malibu, California",
+      "facilities": ["living room", "swimming pool", "kitchen"],
+      "image_url": "https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?ga=GA1.1.2061230438.1732388446&semt=ais_hybrid"
+      
+    },
+    {
+      "id": 3,
+      "estate_title": "Colonial Style Mansion",
+      "segment_name": "Residential",
+      "description": "A classic colonial mansion with elegant interiors and a large backyard.",
+      "price": "$3,500,000",
+      "status": "sale",
+      "area": "5000 sqft",
+      "location": "Savannah, Georgia",
+      "facilities": ["living room", "swimming pool", "kitchen"],
+      "image_url": "https://img.freepik.com/free-photo/3d-electric-car-building_23-2148972401.jpg?ga=GA1.1.2061230438.1732388446&semt=ais_hybrid"
+      
+    },
+    {
+      "id": 4,
+      "estate_title": "Contemporary Urban Home",
+      "segment_name": "Residential",
+      "description": "A sleek, modern home with smart features located in the heart of the city.",
+      "price": "$950,000",
+      "status": "sale",
+      "area": "2500 sqft",
+      "location": "Seattle, Washington",
+      "facilities": ["living room", "swimming pool", "kitchen"],
+      "image_url": "https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150749.jpg?ga=GA1.1.2061230438.1732388446&semt=ais_hybrid"
+      
+    },
+    {
+      "id": 5,
+      "estate_title": "Family-Friendly Suburban House",
+      "segment_name": "Residential",
+      "description": "A cozy home perfect for families with a spacious garden and play area.",
+      "price": "$750,000",
+      "status": "sale",
+      "area": "3000 sqft",
+      "location": "Austin, Texas",
+      "facilities": ["living room", "kitchen", "garden"],
+      "image_url": "https://img.freepik.com/premium-photo/3d-rendering-individual-modern-house_21255-19.jpg?ga=GA1.1.2061230438.1732388446&semt=ais_hybrid"
+    
+    },
+    {
+      "id": 6,
+      "estate_title": "Luxurious Penthouse",
+      "segment_name": "Residential",
+      "description": "A premium penthouse with stunning panoramic city views.",
+      "price": "$3,200/month",
+      "status": "rent",
+      "area": "2000 sqft",
+      "location": "New York City, New York",
+      "facilities": ["living room", "kitchen", "private terrace"],
+      "image_url": "https://img.freepik.com/premium-photo/3d-render-photo-large-modern-contemporary-house-wood-concrete_180198-1002.jpg?ga=GA1.1.2061230438.1732388446&semt=ais_hybrid"
+      
+    },
+    {
+      "id": 7,
+      "estate_title": "Modern Loft Apartment",
+      "segment_name": "Residential",
+      "description": "A stylish loft apartment with high ceilings and modern decor.",
+      "price": "$2,000/month",
+      "status": "rent",
+      "area": "1500 sqft",
+      "location": "Los Angeles, California",
+      "facilities": ["living room", "kitchen", "balcony"],
+      "image_url": "https://img.freepik.com/premium-photo/modern-house-garden_251764-379.jpg?ga=GA1.1.2061230438.1732388446&semt=ais_hybrid"
+      
+    },
+    {
+      "id": 8,
+      "estate_title": "Eco-Friendly Greenhouse",
+      "segment_name": "Residential",
+      "description": "A sustainable home built with eco-friendly materials and solar panels.",
+      "price": "$1,100,000",
+      "status": "sale",
+      "area": "2200 sqft",
+      "location": "Portland, Oregon",
+      "facilities": ["living room", "kitchen", "solar power"],
+      "image_url": "https://img.freepik.com/premium-photo/parked-cars-line-side-busy-street_118124-267714.jpg?ga=GA1.1.2061230438.1732388446&semt=ais_hybrid"
+      
+    },
+    {
+      "id": 9,
+      "estate_title": "Elegant Townhouse",
+      "segment_name": "Residential",
+      "description": "An elegant townhouse with classic interiors and a private patio.",
+      "price": "$1,800/month",
+      "status": "rent",
+      "area": "1800 sqft",
+      "location": "Chicago, Illinois",
+      "facilities": ["living room", "kitchen", "patio"],
+      "image_url": "https://img.freepik.com/premium-photo/home-person-is-listed-1-3-million_1086760-68567.jpg?ga=GA1.1.2061230438.1732388446&semt=ais_hybrid"
+      
+    }
+  ]
+  
