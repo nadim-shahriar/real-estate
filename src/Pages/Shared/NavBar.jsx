@@ -1,9 +1,17 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from '../../assets/images/Logo.png'
 import { IoPersonOutline } from "react-icons/io5";
+import { useContext } from "react";
+import { AuthContext } from "../../Provider/AuthProvider";
 
 
 const NavBar = () => {
+    const { user,logOut } = useContext(AuthContext)
+
+    const handleSignOut = () =>{
+        logOut();
+        console.log('successfully log out')
+    }
 
     const links = <>
         <li><NavLink className='text-lg ' to={'/'}>Home</NavLink></li>
@@ -50,11 +58,21 @@ const NavBar = () => {
             </div>
             <div className="navbar-end ">
 
-                <a className="btn h-[60px] border-cyan-950 hover:bg-cyan-950 hover:text-white rounded-full text-lg px-10">
-                    <IoPersonOutline></IoPersonOutline>
-                    Sing In
-                </a>
+                {
+                    user ?
+                        <btn onClick={handleSignOut} className="btn h-[60px] border-cyan-950 hover:bg-cyan-950 hover:text-white rounded-full text-lg px-10 ">
+                            <IoPersonOutline></IoPersonOutline>
+                            Sign Out
+                        </btn> :
+                        <Link to={'/login'}>
+                            <btn className="btn h-[60px] border-cyan-950 hover:bg-cyan-950 hover:text-white rounded-full text-lg px-10 ">
+                                <IoPersonOutline></IoPersonOutline>
+                                Sing In
+                            </btn>
+                        </Link>
+                }
             </div>
+
         </div>
     );
 };
